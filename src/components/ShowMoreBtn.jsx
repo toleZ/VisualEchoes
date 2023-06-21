@@ -22,7 +22,7 @@ const ShowMoreBtn = ({ data: [data, setData], type }) => {
 
   return (
     <button
-      className={`relative w-full flex items-center justify-center gap-3 mt-3 p-2 font-medium hover:text-white disabled:text-gray-950/50 disabled:bg-gray-500/10 disabled:hover:cursor-not-allowed overflow-hidden border-2 border-black hover:border-blue-500 disabled:border-none rounded-md transition-all duration-300 after:-z-10 after:contents-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-blue-500 after:-translate-y-full disabled:hover:after:-translate-y-full hover:after:translate-y-0 after:transition-all after:duration-300`}
+      className={`relative w-full flex items-center justify-center gap-3 mt-3 p-2 font-medium hover:text-white disabled:text-gray-950/50 disabled:bg-gray-500/10 disabled:hover:cursor-not-allowed overflow-hidden border-2 border-black hover:border-opacity-0 disabled:border-none rounded-md transition-all duration-300 after:-z-10 after:contents-[''] after:w-full after:h-full after:absolute after:top-0 after:left-0 after:bg-gradient-to-r after:from-[#ee0979] after:to-[#ff6a00] after:-translate-x-full disabled:hover:after:-translate-x-full hover:after:translate-x-0 after:transition-all after:duration-300`}
       onClick={handleShowMore}
       disabled={isLoading}
     >

@@ -57,7 +57,7 @@ const SearchBar = ({ setData, type: [type, setType] }) => {
         <div
           className={`relative grid grid-cols-2 border rounded-md overflow-hidden after:absolute after:top-0 ${
             type !== "photos" && "after:translate-x-full"
-          } after:w-1/2 after:h-full after:bg-blue-500 after:transition-all after:duration-300`}
+          } after:w-1/2 after:h-full after:bg-gradient-to-r after:from-[#ee0979] after:to-[#ff6a00] after:transition-all after:duration-300`}
         >
           <button
             className={`z-10 p-4 flex ${
